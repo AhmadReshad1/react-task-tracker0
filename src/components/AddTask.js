@@ -31,13 +31,13 @@ setReminder(false)
                   </div>
 
                   <div className= 'form-control'>
-            <label>Task</label> 
+            <label>Day and Time</label> 
             <input type='text' placeholder='Add Day&Time' value={day} onChange={(e) =>
                 setDay(e.target.value)
             } />  
                   </div>
                   <div className= 'form-control' form-control-check>
-            <label>Task</label> 
+            <label>Reminder</label> 
             <input type='checkbox' 
             checked={reminder}
             value={reminder} onChange={(e) =>
